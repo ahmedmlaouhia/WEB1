@@ -1,7 +1,6 @@
 section{
     padding: 20px;
-  
-    width: 90%;
+    width: 95%;
 }
 
 .left, .right{
@@ -16,26 +15,21 @@ h2{
     text-align: center;
     font-weight: normal;
     width: 100%;
-
 }
 
 .body{
     background-color: rgb(28, 37, 65);
     display: flex;
     flex-wrap: nowrap;
-    align-items: stretch;
 }
 
 body{
     background-color: rgb(28, 37, 65);
-    padding: 0px;
     margin: 0px;
-    
-    
-  
 }
 
 #navbar{
+    padding: 0px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -43,10 +37,18 @@ body{
 }
 
 .navbtn{
+    transition: 500ms;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
     text-decoration: none;
     color: beige;
     font-size: x-large;
-    width: 100%;
+}
+
+.navbtn:hover{
+    background-color: rgb(212, 120, 0);
+    transition: 500ms;
 }
 
 img{
