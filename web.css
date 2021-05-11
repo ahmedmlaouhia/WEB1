@@ -1,0 +1,22 @@
+section{
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+}
+
+.left, .right{
+    width: 50%;
+    color: rgb(228, 233, 187);
+}
+
+h2{
+    text-align: center;
+    font-weight: normal;
+
+}
+
+body{
+    background-color: rgb(28, 37, 65);
+    display: flex;
+    flex-wrap: nowrap;
+}
