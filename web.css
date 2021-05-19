@@ -4,11 +4,14 @@ section{
 }
 
 .left, .right{
-    width: 50%;
-    color: rgb(228, 233, 187);
+
+    color: rgb(24, 8, 61);
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+.left{
+    width: 30%;
 }
 
 h2{
@@ -18,14 +21,19 @@ h2{
 }
 
 .body{
-    background-color: rgb(28, 37, 65);
+    background-color: rgb(172, 172, 172);
     display: flex;
     flex-wrap: nowrap;
+    align-items: flex-start;
 }
 
 body{
-    background-color: rgb(28, 37, 65);
+    background-color: rgb(172, 172, 172);
     margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 #navbar{
@@ -33,24 +41,46 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: cadetblue;
+    background-color: rgb(2, 132, 141);
 }
 
 .navbtn{
     transition: 500ms;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
     text-decoration: none;
-    color: beige;
+    color: rgb(255, 255, 255);
     font-size: x-large;
 }
 
 .navbtn:hover{
-    background-color: rgb(212, 120, 0);
+    background-color: rgb(0, 198, 212);
     transition: 500ms;
+    color: rgb(0, 0, 0);
+
 }
 
 img{
     width: 15vw;
+   
 }
+td{
+    padding:5px;
+}
+.nejma{
+   font-size: 30px;
+   text-align:center;
+   width: 100%;
+   
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+.tab{
+    text-align: center;
+    width: 40%;
+}
+    
